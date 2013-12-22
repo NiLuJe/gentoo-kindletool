@@ -9,11 +9,9 @@ inherit base git-2
 MY_PN="KindleTool"
 
 DESCRIPTION="Tool for creating/extracting Kindle updates and more"
-#HOMEPAGE="https://github.com/yifanlu/KindleTool/"
 HOMEPAGE="https://github.com/NiLuJe/KindleTool/"
 SRC_URI=""
 
-#EGIT_REPO_URI="https://github.com/yifanlu/${MY_PN}.git"
 EGIT_REPO_URI="https://github.com/NiLuJe/${MY_PN}.git"
 
 LICENSE="GPL-3"
