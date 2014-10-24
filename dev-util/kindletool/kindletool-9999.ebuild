@@ -4,7 +4,7 @@
 
 EAPI="5"
 
-inherit base git-2
+inherit base git-r3
 
 MY_PN="KindleTool"
 
