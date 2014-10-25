@@ -26,8 +26,6 @@ DEPEND="${RDEPEND}
 
 DOCS=( "README.md" )
 
-S="${WORKDIR}/${MY_PN}"
-
 src_compile() {
 	if use debug; then
 		emake DEBUG="true"
