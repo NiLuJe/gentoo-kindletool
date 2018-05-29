@@ -1,10 +1,9 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header$
 
-EAPI="5"
+EAPI="6"
 
-inherit base vcs-snapshot
+inherit vcs-snapshot
 
 MY_PN="KindleTool"
 
@@ -14,7 +13,7 @@ SRC_URI="https://github.com/NiLuJe/${MY_PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 arm x86 x64-macos x86-macos x86-winnt"
+KEYWORDS="amd64 arm64 arm x86 x64-macos x86-macos x86-winnt"
 IUSE="debug"
 
 RDEPEND=""
